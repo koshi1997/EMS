@@ -1,0 +1,16 @@
+.mat-raised-button {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.material-icons{
+    margin-top: 5px;
+}

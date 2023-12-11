@@ -1,0 +1,16 @@
+<!-- digital-clock.component.html -->
+
+<div class="datetime">
+    <div class="date">
+        <span id="dayname">{{ currentDate | date: 'EEEE' }}-</span>
+        <span id="month">{{ currentDate | date: 'MMMM' }} </span>
+        <span id="daynum">{{ currentDate | date: 'dd' }}-</span>
+        <span id="year">{{ currentDate | date: 'yyyy' }}</span>
+    </div>
+    <div class="time">
+        <span id="hours">{{ currentDate | date: 'hh' }}</span>:
+        <span id="minutes">{{ currentDate | date: 'mm' }}</span>:
+        <span id="seconds">{{ currentDate | date: 'ss' }}</span>
+        <span id="period">{{ currentDate | date: 'a' }}</span>
+    </div>
+</div>
